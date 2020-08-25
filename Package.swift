@@ -23,8 +23,8 @@ let package = Package(
         .target(
             name: "FlurrySwiftPackage"
             ),
-        .target(
-            name: "FlurryMessaging.xcframework",
+        .binaryTarget(
+            name: "FlurryMessaging",
             path: "artifacts/FlurryMessaging.xcframework"
             ),
         .testTarget(
